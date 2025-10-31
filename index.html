@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LND Mont-Consulting j.d.o.o.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #002B7F;
+            color: white;
+            font-size: 20px;
+        }
+        header {
+            background-color: #C00000;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+        header nav a {
+            color: white;
+            margin: 0 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 120px 80px;
+            min-height: 100vh;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .hero img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+        }
+        .hero-text {
+            width: 50%;
+        }
+        .hero-text h1 {
+            font-family: 'Impact', sans-serif;
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        .hero-text p {
+            font-size: 22px;
+            line-height: 1.6;
+        }
+        h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .content-block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .content-block img {
+            width: 200px;
+        }
+        .services, .advantages, .process {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .service, .advantage, .step {
+            background-color: #003C9E;
+            padding: 30px;
+            border-radius: 10px;
+            flex: 1;
+        }
+        .contacts {
+            text-align: center;
+        }
+        .contact-form {
+            margin-top: 40px;
+            display: inline-block;
+            text-align: left;
+            background-color: #003C9E;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #C00000;
+            color: white;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-info {
+            margin-top: 30px;
+            font-size: 22px;
+        }
+        .icon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#pocetna">POČETNA</a>
+            <a href="#onama">O NAMA</a>
+            <a href="#usluge">USLUGE</a>
+            <a href="#kontakt">KONTAKT</a>
+        </nav>
+    </header>
+
+    <!-- Glavni ekran -->
+    <section id="pocetna" class="hero">
+        <div class="hero-text">
+            <h1><b>LND Mont-Consulting j.d.o.o.</b></h1>
+            <p>Mi smo stručnjaci za poslovno savjetovanje, IT podršku i upravljanje poslovnim procesima. Naš cilj je pomoći tvrtkama da unaprijede svoju učinkovitost, smanje troškove i osiguraju stabilan rast kroz pametna, prilagođena rješenja.</p>
+        </div>
+        <img src="https://plus.unsplash.com/premium_photo-1661304674146-c50d8ed495ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fG9mZmljZSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="Office Team">
+    </section>
+
+    <!-- O nama -->
+    <section id="onama">
+        <h2>Tko smo mi</h2>
+        <div class="content-block">
+            <div>
+                <p>LND Mont-Consulting j.d.o.o. osnovan je s misijom da pomogne poduzećima u donošenju pametnih odluka i digitalnoj transformaciji. Naš tim kombinira iskustvo iz upravljanja, financija i IT sektora kako bi pružio cjelovitu podršku klijentima. Vjerujemo u analitički pristup i prilagođena rješenja koja donose stvarne rezultate. Naša snaga leži u razumijevanju potreba klijenta i izgradnji dugoročnog povjerenja.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usluge -->
+    <section id="usluge">
+        <h2>Što nudimo</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Poslovno savjetovanje</h3>
+                <p>Pomažemo vam optimizirati poslovne procese, analizirati tržište i donijeti strateške odluke temeljene na podacima. Naš cilj je povećati vašu konkurentnost i profitabilnost.</p>
+            </div>
+            <div class="service">
+                <h3>Upravljačko savjetovanje</h3>
+                <p>Naši stručnjaci rade s menadžmentom na razvoju učinkovitih operativnih i organizacijskih struktura. Fokusirani smo na rezultate i održive promjene.</p>
+            </div>
+            <div class="service">
+                <h3>IT podrška</h3>
+                <p>Pružamo tehničku podršku i IT rješenja za poslovanja svih veličina. Naš tim brine o sigurnosti, integraciji sustava i digitalnoj učinkovitosti vašeg poslovanja.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prednosti -->
+    <section id="prednosti">
+        <h2>Zašto odabrati nas</h2>
+        <div class="advantages">
+            <div class="advantage">
+                <h3>Iskustvo i stručnost</h3>
+                <p>Naš tim ima dugogodišnje iskustvo u vođenju projekata i savjetovanju različitih industrija, što osigurava kvalitetna i primjenjiva rješenja.</p>
+            </div>
+            <div class="advantage">
+                <h3>Prilagođen pristup</h3>
+                <p>Svaka tvrtka je jedinstvena — zato nudimo rješenja koja su krojena prema vašim specifičnim ciljevima i izazovima.</p>
+            </div>
+            <div class="advantage">
+                <h3>Transparentnost i povjerenje</h3>
+                <p>Otvorena komunikacija i jasno definirani ciljevi temelj su naše suradnje. Gradimo odnose na povjerenju i rezultatima.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Naš proces -->
+    <section id="proces">
+        <h2>Kako radimo</h2>
+        <div class="process">
+            <div class="step">
+                <h3>1. Analiza</h3>
+                <p>Detaljno proučavamo vašu organizaciju i identificiramo ključna područja za poboljšanje, koristeći mjerne pokazatelje i poslovne uvide.</p>
+            </div>
+            <div class="step">
+                <h3>2. Strategija</h3>
+                <p>Razvijamo personaliziranu strategiju temeljenu na vašim ciljevima, kombinirajući poslovne i IT aspekte za maksimalnu učinkovitost.</p>
+            </div>
+            <div class="step">
+                <h3>3. Implementacija</h3>
+                <p>Provodimo rješenja u praksi, uz stalnu podršku i praćenje rezultata kako bi se osigurali mjerljivi i trajni učinci.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="contacts">
+        <h2>Kontaktirajte nas</h2>
+        <p>Za sve upite, suradnju ili dodatne informacije, slobodno nam se obratite putem e-maila. Naš tim će vam odgovoriti brzo i s konkretnim rješenjem. Vjerujemo u dijalog koji vodi do uspjeha!</p>
+
+        <div class="contact-form">
+            <form>
+                <label>Ime i prezime:</label><br>
+                <input type="text" placeholder="Vaše ime"><br>
+                <label>E-mail:</label><br>
+                <input type="email" placeholder="Vaš e-mail"><br>
+                <label>Poruka:</label><br>
+                <textarea rows="4" placeholder="Vaša poruka"></textarea><br>
+                <button type="submit">Pošalji</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <p>📧 <b>Email:</b> support@lndmont-consulting.services</p>
+            <p>📍 <b>Adresa:</b> Ante Starčevića 77, 31400 Đakovo</p>
+        </div>
+    </section>
+
+</body>
+</html>
